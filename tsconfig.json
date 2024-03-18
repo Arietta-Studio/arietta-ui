@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "@/*": ["src/*"],
+      "@arietta-studio/ui": ["src"],
+      "@arietta-studio/ui/*": ["src/*"],
+      "@arietta-studio/ui/mdx": ["src/mdx"],
+      "@arietta-studio/ui/mdx/*": ["src/mdx/*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["vitest/globals"]
+  },
+  "exclude": ["mdx.d.ts"],
+  "include": ["src", "docs", "tests", ".dumirc.ts", ".fatherrc.ts"]
+}
