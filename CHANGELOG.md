@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.1.2](https://github.com/arietta-studio/arietta-ui/compare/v1.1.1...v1.1.2)
+
+<sup>Released on **2024-03-18**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Update UI component descriptions and documentation.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Update UI component descriptions and documentation ([9678a8d](https://github.com/arietta-studio/arietta-ui/commit/9678a8d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.1.1](https://github.com/arietta-studio/arietta-ui/compare/v1.1.0...v1.1.1)
 
 <sup>Released on **2024-03-18**</sup>
