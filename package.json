@@ -141,7 +141,6 @@
     "cross-env": "^7",
     "dpdm": "^3",
     "dumi": "^2",
-    "dumi-theme-arietta": "latest",
     "eslint": "^8",
     "father": "4.3.1",
     "husky": "^8",
