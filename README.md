@@ -8,7 +8,7 @@
 
 <h1>Arietta UI</h1>
 
-Arietta UI is an open-source UI component library for building _AIGC_ web apps
+Arietta UI is an open-source UI component library for building amazing web apps
 
 English ・ [Changelog](./CHANGELOG.md) · [Report Bug][github-issues-link] · [Request Feature][github-issues-link]
 
@@ -92,7 +92,7 @@ import { Button } from 'antd'
 
 export default () => (
   <ThemeProvider>
-    <Button>Hello AIGC</Button>
+    <Button>Hello Arietta</Button>
   </ThemeProvider>
 )
 ```

@@ -28,7 +28,7 @@ const example = `import { ThemeProvider, GradientButton } from '@arietta-studio/
 
 export default () => (
   <ThemeProvider>
-    <GradientButton>Hello AIGC</GradientButton>
+    <GradientButton>Hello Arietta</GradientButton>
   </ThemeProvider>
 )`;
 
@@ -37,7 +37,7 @@ export default () => {
   return (
     <Center gap={16}>
       <Center>
-        <h2 style={{ fontSize: 20 }}>🤯 Start building your AIGC app now</h2>
+        <h2 style={{ fontSize: 20 }}>🤯 Start building your amazing app now</h2>
         <div style={{ color: theme.colorTextDescription, textAlign: 'center' }}>
           The Arietta UI components are developed based on{' '}
           <a href={'https://ant.design/components/overview'} rel="noreferrer" target={'_blank'}>

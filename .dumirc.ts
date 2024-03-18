@@ -25,14 +25,13 @@ const themeConfig = {
     pkg: name,
     sourceUrl: `{github}/tree/master/src/{atomId}/index.tsx`,
   },
-  description: 'Arietta UI is an open-source UI component library for building AIGC web apps',
+  description: 'Arietta UI is an open-source UI component library for building amazing web apps',
   footer: 'Made with 🤯 by Arietta Studio',
-
   giscus: {
     category: 'Q&A',
-    categoryId: '', // TODO: Add categoryId
+    categoryId: 'DIC_kwDOLh7xvs4CeD-C',
     repo: 'arietta-studio/arietta-ui',
-    repoId: '', // TODO: Add repoId
+    repoId: 'R_kgDOLh7xvg',
   },
   name: 'UI',
   nav: [

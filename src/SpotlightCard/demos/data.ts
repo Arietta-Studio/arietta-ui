@@ -8,7 +8,7 @@ export default [
   },
   {
     content:
-      'Arietta UI is an open-source UI component library for building AIGC web apps - GitHub - arietta-studio/arietta-ui: Arietta UI is an open-source UI component library for ...',
+      'Arietta UI is an open-source UI component library for building amazing web apps - GitHub - arietta-studio/arietta-ui: Arietta UI is an open-source UI component library for ...',
     favicon:
       'https://serpapi.com/searches/64e83bc4c9990330f48fd62f/images/f40516e98093ab4c002d39bf835b3922f7d5cfce4fde91906aba32fa8a7f31b2.png',
     title: 'arietta-studio/arietta-ui - GitHub',
@@ -21,7 +21,7 @@ export default [
   },
   {
     content:
-      'Arietta UI is an open-source UI component library for building AIGC web apps. Version: 1.0.0 was published by gincioks.',
+      'Arietta UI is an open-source UI component library for building amazing web apps. Version: 1.0.0 was published by gincioks.',
     favicon:
       'https://serpapi.com/searches/64e83bc4c9990330f48fd62f/images/f40516e98093ab4c002d39bf835b3922a78893068fa9ff7249d46b96a844cc8f.png',
     title: '@arietta-studio/arietta-ui - npm Package Overview - Socket',

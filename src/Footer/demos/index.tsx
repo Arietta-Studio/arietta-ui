@@ -4,7 +4,7 @@ const columns: FooterProps['columns'] = [
   {
     items: [
       {
-        description: 'AIGC Components',
+        description: 'UI Components',
         openExternal: true,
         title: '🤯 Arietta UI',
         url: 'https://github.com/arietta-studio/arietta-ui',

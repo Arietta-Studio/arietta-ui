@@ -81,8 +81,13 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
     case 'combine': {
       logoComponent = (
         <>
-          <Img alt="arietta-studio" height={size} src={genCdnUrl(LOGO_3D)} width={size} />
-          <LogoText style={{ height: size, marginLeft: Math.round(size / 4), width: 'auto' }} />
+          <Img
+            alt="arietta-studio"
+            height={size * 1.7}
+            src={genCdnUrl(LOGO_3D)}
+            width={size * 1.7}
+          />
+          <LogoText style={{ height: size, marginTop: '5px', width: 'auto' }} />
         </>
       );
       break;
@@ -96,8 +101,10 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
   return (
     <Flexbox align={'center'} className={className} horizontal style={style} {...rest}>
       {logoComponent}
-      <Divider style={{ color: theme.colorFill, height: extraSize, width: extraSize }} />
-      <div className={styles.extraTitle} style={{ fontSize: extraSize }}>
+      <Divider
+        style={{ color: theme.colorFill, height: extraSize, marginTop: '5px', width: extraSize }}
+      />
+      <div className={styles.extraTitle} style={{ fontSize: extraSize, marginTop: '5px' }}>
         {extra}
       </div>
     </Flexbox>
