@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<img height="120" src="https://unpkg.com/@arietta-studio/assets-logo@latest/assets/logo-3d.webp">
-<img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://unpkg.com/@arietta-studio/assets-emoji@latest/assets/lollipop.webp">
+<img height="130" src="https://unpkg.com/@arietta-studio/assets-logo@latest/assets/logo-3d.webp" style="vertical-align: middle;">
+<img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg" style="vertical-align: middle;">
+<img height="130" src="https://unpkg.com/@arietta-studio/assets-emoji@latest/assets/lollipop.webp" style="vertical-align: middle;">
 
 <h1>Arietta UI</h1>
 
