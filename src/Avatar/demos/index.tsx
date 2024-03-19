@@ -19,7 +19,7 @@ export default () => {
         pkg: '@arietta-studio/assets-logo',
         version: 'latest',
       }),
-      background: '#FEE064',
+      background: '#161616',
       shape: {
         options: ['circle', 'square'],
         value: 'circle',

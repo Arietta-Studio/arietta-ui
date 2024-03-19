@@ -16,10 +16,10 @@ const columns: FooterProps['columns'] = [
         url: 'https://github.com/arietta-studio/arietta-chat',
       },
       {
-        description: 'Node Flow Editor',
+        description: 'Music Studio',
         openExternal: true,
-        title: '🤯 Arietta Flow',
-        url: 'https://github.com/arietta-studio/arietta-flow',
+        title: '🤯 Arietta Music',
+        url: 'https://github.com/arietta-studio/arietta-music',
       },
     ],
     title: 'Resources',

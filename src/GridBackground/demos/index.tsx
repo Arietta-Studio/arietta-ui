@@ -6,7 +6,6 @@ import {
   useCreateStore,
 } from '@arietta-studio/ui';
 import { useTheme } from 'antd-style';
-import { rgba } from 'polished';
 
 export default () => {
   const theme = useTheme();
@@ -15,7 +14,7 @@ export default () => {
     {
       animation: true,
       backgroundColor: '#001dff',
-      colorBack: rgba(theme.colorText, 0.2),
+      colorBack: '#ffffff33',
       colorFront: theme.colorText,
       duration: {
         max: 24,

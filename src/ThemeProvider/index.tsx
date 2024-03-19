@@ -7,8 +7,13 @@ import {
   CustomStylishParams,
   CustomTokenParams,
   GetAntdTheme,
+  StaticInstance,
   StyleProvider,
+  ThemeAppearance,
+  ThemeMode,
 } from 'antd-style';
+import { ConfigOptions as MessageConfig } from 'antd/es/message/interface';
+import { NotificationConfig } from 'antd/es/notification/interface';
 import { CSSProperties, memo, useCallback } from 'react';
 
 import { useCdnFn } from '@/ConfigProvider';
@@ -20,6 +25,11 @@ import { AriettaCustomToken } from '@/types/customToken';
 import GlobalStyle from './GlobalStyle';
 
 export interface ThemeProviderProps extends Omit<AntdThemeProviderProps<any>, 'theme'> {
+  /**
+   * @description Appearance of the application theme, default provides two light and dark, users can extend it by themselves
+   * @default light
+   */
+  appearance?: ThemeAppearance;
   className?: string;
   customStylish?: (theme: CustomStylishParams) => { [key: string]: any };
   customTheme?: {
@@ -33,7 +43,24 @@ export interface ThemeProviderProps extends Omit<AntdThemeProviderProps<any>, 't
   customToken?: (theme: CustomTokenParams) => { [key: string]: any };
   enableGlobalStyle?: boolean;
   enableWebfonts?: boolean;
+  /**
+   * @description Get static instance from ThemeProvider
+   * @param instances
+   */
+  getStaticInstance?: (instances: StaticInstance) => void;
+  /**
+   * @description Static instance config
+   */
+  staticInstanceConfig?: {
+    message?: MessageConfig;
+    notification?: NotificationConfig;
+  };
   style?: CSSProperties;
+  /**
+   * @description Theme of the application, or pass in a function to return the corresponding theme based on the current theme mode
+   * @default light
+   */
+  themeMode?: ThemeMode;
   /**
    * @description Webfont loader css strings
    */

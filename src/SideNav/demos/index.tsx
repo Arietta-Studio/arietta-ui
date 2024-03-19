@@ -7,7 +7,7 @@ export default () => {
 
   return (
     <SideNav
-      avatar={<Logo size={40} />}
+      avatar={<Logo size={60} />}
       bottomActions={<ActionIcon icon={Settings2} />}
       topActions={
         <>

@@ -1,9 +1,10 @@
 import { GaussianBackground, StoryBook, useControls, useCreateStore } from '@arietta-studio/ui';
-import { useTheme } from 'antd-style';
-import React from 'react';
+
+// import { useTheme } from 'antd-style';
+// import React from 'react';
 
 export default () => {
-  const theme = useTheme();
+  // const theme = useTheme();
   const store = useCreateStore();
   const Options = useControls(
     'Options',
@@ -17,14 +18,14 @@ export default () => {
   const Layer1 = useControls(
     'Layer1',
     {
-      color: theme.gold,
+      color: '#574414',
     },
     { store },
   );
   const Layer2 = useControls(
     'Layer2',
     {
-      color: theme.cyan,
+      color: '#063a2b',
       maxVelocity: 0.2,
       orbs: 4,
       radius: 8,
@@ -34,7 +35,7 @@ export default () => {
   const Layer3 = useControls(
     'Layer3',
     {
-      color: theme.purple,
+      color: '#4f1354',
       maxVelocity: 0.2,
       orbs: 4,
       radius: 16,
