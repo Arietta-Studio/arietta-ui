@@ -81,13 +81,8 @@ const Logo = memo<LogoProps>(({ type = '3d', size = 32, style, extra, className,
     case 'combine': {
       logoComponent = (
         <>
-          <Img
-            alt="arietta-studio"
-            height={size * 1.7}
-            src={genCdnUrl(LOGO_3D)}
-            width={size * 1.7}
-          />
-          <LogoText style={{ height: size, marginTop: '5px', width: 'auto' }} />
+          <Img alt="arietta-studio" height={size} src={genCdnUrl(LOGO_3D)} width={size} />
+          <LogoText style={{ height: size, marginLeft: '10px', marginTop: '5px', width: 'auto' }} />
         </>
       );
       break;
