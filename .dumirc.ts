@@ -33,6 +33,7 @@ const themeConfig = {
     repo: 'arietta-studio/arietta-ui',
     repoId: 'R_kgDOLh7xvg',
   },
+  hideHomeNav: true,
   name: 'UI',
   nav: [
     { link: '/components/action-icon', title: 'Components' },
