@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.4.0](https://github.com/arietta-studio/arietta-ui/compare/v1.3.0...v1.4.0)
+
+<sup>Released on **2024-03-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Add hideHomeNav flag to .dumirc.ts configuration.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add hideHomeNav flag to .dumirc.ts configuration ([7892ff7](https://github.com/arietta-studio/arietta-ui/commit/7892ff7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.3.0](https://github.com/arietta-studio/arietta-ui/compare/v1.2.0...v1.3.0)
 
 <sup>Released on **2024-03-24**</sup>
