@@ -58,7 +58,10 @@ export default defineConfig({
   },
   extraBabelPlugins: ['babel-plugin-antd-style'],
   favicons: ['https://unpkg.com/@arietta-studio/assets-favicons@latest/assets/favicon.ico'],
-  locales: [{ id: 'en-US', name: 'English' }],
+  locales: [
+    { id: 'en-US', name: 'English' },
+    { id: 'lt-LT', name: 'Lietuvių' },
+  ],
   mfsu: isWin ? undefined : {},
   npmClient: 'pnpm',
   publicPath: '/',
