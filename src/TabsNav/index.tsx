@@ -5,7 +5,7 @@ import { memo } from 'react';
 
 import { useStyles } from './style';
 
-export interface TabsNavProps {
+export interface TabsNavProps extends TabsProps {
   /**
    * @description The key of the active tab
    */

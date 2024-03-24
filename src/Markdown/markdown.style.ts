@@ -25,10 +25,11 @@ export const useStyles = createStyles(
         position: relative;
 
         width: 100%;
+        padding-inline: 1px;
 
         font-size: var(--arietta-markdown-font-size);
         line-height: var(--arietta-markdown-line-height);
-        word-break: auto-phrase;
+        word-break: break-word;
       `,
       a: css`
         a {
@@ -62,7 +63,8 @@ export const useStyles = createStyles(
           font-family: ${token.fontFamilyCode};
           font-size: 0.875em;
           line-height: 1;
-          word-break: auto-phrase;
+          word-break: break-word;
+          white-space: break-spaces;
 
           background: ${token.colorFillSecondary};
           border: 1px solid var(--arietta-markdown-border-color);
@@ -77,7 +79,7 @@ export const useStyles = createStyles(
 
           background: ${token.colorFillTertiary};
           border-radius: calc(var(--arietta-markdown-border-radius) * 1px);
-          box-shadow: inset 0 0 0 1px var(--arietta-markdown-border-color);
+          box-shadow: 0 0 0 1px var(--arietta-markdown-border-color);
 
           summary {
             cursor: pointer;
@@ -132,6 +134,7 @@ export const useStyles = createStyles(
             var(--arietta-markdown-font-size)
           );
           font-weight: 600;
+          line-height: 1.25;
         }
 
         h1 {
@@ -258,6 +261,7 @@ export const useStyles = createStyles(
       pre: css`
         pre,
         [data-code-type='highlighter'] {
+          white-space: break-spaces;
           border: none;
 
           > code {
@@ -289,18 +293,23 @@ export const useStyles = createStyles(
           margin-block: calc(var(--arietta-markdown-margin-multiple) * 1em);
 
           text-align: start;
+          word-break: auto-phrase;
           overflow-wrap: break-word;
 
           background: ${token.colorFillQuaternary};
           border-radius: calc(var(--arietta-markdown-border-radius) * 1px);
-          box-shadow: inset 0 0 0 1px var(--arietta-markdown-border-color);
+          box-shadow: 0 0 0 1px var(--arietta-markdown-border-color);
+
+          code {
+            word-break: break-word;
+          }
 
           thead {
             background: ${token.colorFillQuaternary};
           }
 
           tr {
-            box-shadow: inset 0 1px 0 var(--arietta-markdown-border-color);
+            box-shadow: 0 1px 0 var(--arietta-markdown-border-color);
           }
 
           th,

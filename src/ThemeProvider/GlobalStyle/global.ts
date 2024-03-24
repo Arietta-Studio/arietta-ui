@@ -1,13 +1,20 @@
 import { Theme, css } from 'antd-style';
 
 export default (token: Theme) => css`
-  html,
-  body {
+  :root {
     --font-settings: 'cv01', 'tnum', 'kern';
     --font-variations: 'opsz' auto, tabular-nums;
+  }
 
+  html {
+    overscroll-behavior: none;
+    color-scheme: ${token.isDarkMode ? 'dark' : 'light'};
+  }
+
+  body {
     overflow: hidden auto;
 
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 
@@ -19,9 +26,9 @@ export default (token: Theme) => css`
     color: ${token.colorTextBase};
     text-size-adjust: none;
     text-rendering: optimizelegibility;
+    word-wrap: break-word;
     vertical-align: baseline;
 
-    color-scheme: dark;
     background-color: ${token.colorBgLayout};
 
     -webkit-font-smoothing: antialiased;
@@ -30,25 +37,12 @@ export default (token: Theme) => css`
     -webkit-tap-highlight-color: transparent;
   }
 
-  body {
-    overflow-x: hidden;
-    height: 100dvh;
-  }
-
-  #root {
-    min-height: 100dvh;
-  }
-
   code {
     font-family: ${token.fontFamilyCode} !important;
 
     span {
       font-family: ${token.fontFamilyCode} !important;
     }
-  }
-
-  p {
-    word-wrap: break-word;
   }
 
   ::selection {
@@ -61,39 +55,5 @@ export default (token: Theme) => css`
   * {
     box-sizing: border-box;
     vertical-align: baseline;
-  }
-
-  @media only screen and (min-width: 574px) {
-    * {
-      ::-webkit-scrollbar {
-        cursor: pointer;
-        width: 0;
-        height: 4px;
-        background-color: transparent;
-      }
-
-      ::-webkit-scrollbar-thumb {
-        cursor: pointer;
-        background-color: transparent;
-        border-radius: 2px;
-        transition: background-color 500ms ${token.motionEaseOut};
-
-        &:hover {
-          background-color: ${token.colorText};
-        }
-      }
-
-      ::-webkit-scrollbar-corner {
-        display: none;
-        width: 0;
-        height: 0;
-      }
-
-      &:hover {
-        ::-webkit-scrollbar-thumb {
-          background-color: ${token.colorFill};
-        }
-      }
-    }
   }
 `;
