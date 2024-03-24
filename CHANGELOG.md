@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.2.0](https://github.com/arietta-studio/arietta-ui/compare/v1.1.5...v1.2.0)
+
+<sup>Released on **2024-03-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Add new Grid component and integrate with existing components.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add new Grid component and integrate with existing components ([be4d312](https://github.com/arietta-studio/arietta-ui/commit/be4d312))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.1.5](https://github.com/arietta-studio/arietta-ui/compare/v1.1.4...v1.1.5)
 
 <sup>Released on **2024-03-19**</sup>
